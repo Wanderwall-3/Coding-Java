@@ -4,8 +4,9 @@ import java.util.*;
 public class spiral_matrix{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int[][] a={{1,2,3},
-                   {5,6,7}
+        int[][] a={{1,2,3,4},
+                   {5,6,7,8},
+                   {9,10,11,12}
                 };
         List<Integer> a1=new ArrayList<>();             //USING LIST ARRAY TO OMIT SOME ERROR
         int s=0;
